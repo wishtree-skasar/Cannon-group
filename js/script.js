@@ -9,7 +9,14 @@ $(function () {
   $(".links > li > a").each(function () {
     var url = window.location.href;
     var href = $(this).prop("href");
-    if (url == href) {
+    if (href == "http://127.0.0.1:5500/contactus.html") {
+      $(this).css({
+        color: "#fff",
+        "font-weight": "bold",
+        "border-bottom": "1px solid #28367D",
+        "padding-bottom": "5px",
+      });
+    } else if (url == href) {
       $(this).css({
         color: "#28367D",
         "font-weight": "bold",
