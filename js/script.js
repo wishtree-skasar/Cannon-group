@@ -13,14 +13,14 @@ $(function () {
       $(this).css({
         color: "#fff",
         "font-weight": "bold",
-        "border-bottom": "1px solid #28367D",
+        "border-bottom": "2px solid #28367D",
         "padding-bottom": "5px",
       });
     } else if (url == href) {
       $(this).css({
         color: "#28367D",
         "font-weight": "bold",
-        "border-bottom": "1px solid #28367D",
+        "border-bottom": "2px solid #28367D",
         "padding-bottom": "5px",
       });
     }
